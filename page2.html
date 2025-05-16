@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fincorehub.info</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body class="bg-slate-50 font-sans">
+    <!-- Animated Navbar -->
+    <nav class="bg-amber-600 text-white shadow-lg animate__animated animate__fadeInDown">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <a href="index.html" class="text-2xl font-bold hover:text-amber-200 transition duration-300 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        fincorehub.info
+                    </a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-white hover:text-amber-200" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="font-semibold hover:text-amber-200 transition duration-300 relative group">
+                        Home
+                        <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-200 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="page2.html" class="font-semibold text-amber-200 transition duration-300 relative group">
+                        Credit Pitfalls
+                        <span class="absolute -bottom-1 left-0 w-full h-0.5 bg-amber-200"></span>
+                    </a>
+                    <a href="#" class="font-semibold hover:text-amber-200 transition duration-300 relative group">
+                        Investment Errors
+                        <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-200 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <button class="bg-teal-700 hover:bg-teal-800 px-4 py-2 rounded-lg font-medium transition duration-300 transform hover:scale-105">
+                        Get Advice
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu (hidden by default) -->
+        <div class="hidden mobile-menu bg-amber-700">
+            <div class="container mx-auto px-4 py-3">
+                <a href="index.html" class="block py-2 px-4 text-sm hover:bg-amber-600 rounded">Home</a>
+                <a href="page2.html" class="block py-2 px-4 text-sm bg-amber-600 rounded">Credit Pitfalls</a>
+                <a href="page3.html" class="block py-2 px-4 text-sm hover:bg-amber-600 rounded">Investment Errors</a>
+                <button class="w-full mt-2 bg-teal-700 hover:bg-teal-800 px-4 py-2 rounded-lg font-medium text-sm transition duration-300">
+                    Get Advice
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-slate-600 to-amber-600 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-6 animate__animated animate__fadeInDown">Credit Mistakes That Can Haunt You For Years</h1>
+            <p class="text-xl mb-6 max-w-3xl mx-auto animate__animated animate__fadeIn animate__delay-1s">Your credit score affects everything from loan rates to job opportunities. Avoid these common pitfalls that millennials make.</p>
+            <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6 border border-white/30 shadow-2xl max-w-2xl mx-auto animate__animated animate__fadeInUp animate__delay-2s">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-sm font-medium">Credit Score Impact</span>
+                    <span class="text-sm font-bold">300 - 850</span>
+                </div>
+                <div class="w-full bg-white/30 rounded-full h-4 mb-2">
+                    <div class="bg-amber-400 h-4 rounded-full" style="width: 65%"></div>
+                </div>
+                <div class="flex justify-between text-xs">
+                    <span>Poor</span>
+                    <span>Fair</span>
+                    <span>Good</span>
+                    <span>Very Good</span>
+                    <span>Excellent</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advertisement Banner -->
+    <!-- <div class="bg-slate-200 border-y border-slate-300 py-4 px-4 text-center">
+        <div class="container mx-auto">
+            <p class="text-slate-500 text-sm mb-2">Advertisement</p>
+            <div class="bg-white p-4 rounded-lg border border-slate-300 h-24 flex items-center justify-center">
+                <p class="text-slate-400">Advertisement Space (728x90)</p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-slate-800 mb-8 text-center animate__animated animate__fadeIn">Most Damaging Credit Card Mistakes</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Mistake 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-500 transform hover:-translate-y-2 animate__animated animate__fadeInLeft">
+                    <div class="h-48 bg-gradient-to-r from-rose-600 to-rose-700 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-slate-800">Carrying High Balances</h3>
+                            <span class="bg-rose-100 text-rose-800 text-xs font-bold px-2 py-1 rounded">-100 pts</span>
+                        </div>
+                        <p class="text-slate-600 mb-4">Using more than 30% of your credit limit hurts your score. Maxing out cards can drop your score by 100+ points instantly.</p>
+                        <div class="flex items-center text-sm text-slate-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Recovery time: 3-6 months after paying down
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mistake 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-500 transform hover:-translate-y-2 animate__animated animate__fadeInRight">
+                    <div class="h-48 bg-gradient-to-r from-amber-600 to-amber-700 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-slate-800">Late Payments</h3>
+                            <span class="bg-amber-100 text-amber-800 text-xs font-bold px-2 py-1 rounded">-180 pts</span>
+                        </div>
+                        <p class="text-slate-600 mb-4">Just one 30-day late payment can devastate your score. After 90 days, the damage is severe and long-lasting.</p>
+                        <div class="flex items-center text-sm text-slate-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Recovery time: 12-24 months
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mistake 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-500 transform hover:-translate-y-2 animate__animated animate__fadeInLeft animate__delay-1s">
+                    <div class="h-48 bg-gradient-to-r from-slate-600 to-slate-700 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-slate-800">Opening Too Many Accounts</h3>
+                            <span class="bg-slate-100 text-slate-800 text-xs font-bold px-2 py-1 rounded">-50 pts</span>
+                        </div>
+                        <p class="text-slate-600 mb-4">Each hard inquiry knocks off 5-10 points. Opening several cards quickly looks risky to lenders and lowers your average account age.</p>
+                        <div class="flex items-center text-sm text-slate-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Recovery time: 6-12 months
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mistake 4 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-500 transform hover:-translate-y-2 animate__animated animate__fadeInRight animate__delay-1s">
+                    <div class="h-48 bg-gradient-to-r from-teal-600 to-teal-700 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-slate-800">Closing Old Accounts</h3>
+                            <span class="bg-teal-100 text-teal-800 text-xs font-bold px-2 py-1 rounded">-30 pts</span>
+                        </div>
+                        <p class="text-slate-600 mb-4">Closing your oldest card shortens credit history length (15% of your score) and reduces total available credit.</p>
+                        <div class="flex items-center text-sm text-slate-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Recovery time: 3-6 months
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Credit Repair Strategies -->
+        <section class="mb-16">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/3 bg-gradient-to-b from-teal-600 to-teal-700 p-8 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-32 w-32 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <h2 class="text-2xl font-bold text-slate-800 mb-6">How to Rebuild Your Credit Score</h2>
+                        <p class="text-slate-600 mb-6">If you've made credit mistakes, don't panic. Follow these proven strategies to rebuild your credit over time.</p>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="bg-teal-100 p-2 rounded-lg mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800">Pay on Time, Every Time</h4>
+                                    <p class="text-slate-600 text-sm">Set up autopay for at least the minimum payment. Payment history is 35% of your score.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-teal-100 p-2 rounded-lg mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800">Reduce Credit Utilization</h4>
+                                    <p class="text-slate-600 text-sm">Aim to use less than 10% of your total available credit for maximum scoring benefits.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-teal-100 p-2 rounded-lg mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800">Become an Authorized User</h4>
+                                    <p class="text-slate-600 text-sm">Ask a family member with good credit to add you to their old, established account.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-teal-100 p-2 rounded-lg mr-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800">Consider a Secured Card</h4>
+                                    <p class="text-slate-600 text-sm">Put down a $200-$500 deposit to establish positive payment history if you can't get approved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Credit Score Simulator -->
+        <section class="mb-16 bg-gradient-to-r from-slate-100 to-slate-200 rounded-xl shadow-xl p-8">
+            <h2 class="text-2xl font-bold text-slate-800 mb-6 text-center">Credit Score Impact Simulator</h2>
+            <p class="text-slate-600 mb-8 text-center max-w-2xl mx-auto">See how different financial actions might affect your credit score over time.</p>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-slate-800 mb-4">Select an Action</h3>
+                    <div class="space-y-3">
+                        <button class="w-full text-left bg-slate-100 hover:bg-slate-200 p-3 rounded-lg transition duration-300 flex justify-between items-center">
+                            <span>Make a late payment (30 days)</span>
+                            <span class="bg-rose-100 text-rose-800 px-2 py-1 rounded text-xs">-100 pts</span>
+                        </button>
+                        <button class="w-full text-left bg-slate-100 hover:bg-slate-200 p-3 rounded-lg transition duration-300 flex justify-between items-center">
+                            <span>Pay down credit card from 80% to 30% utilization</span>
+                            <span class="bg-teal-100 text-teal-800 px-2 py-1 rounded text-xs">+50 pts</span>
+                        </button>
+                        <button class="w-full text-left bg-slate-100 hover:bg-slate-200 p-3 rounded-lg transition duration-300 flex justify-between items-center">
+                            <span>Open a new credit card account</span>
+                            <span class="bg-amber-100 text-amber-800 px-2 py-1 rounded text-xs">-15 pts</span>
+                        </button>
+                        <button class="w-full text-left bg-slate-100 hover:bg-slate-200 p-3 rounded-lg transition duration-300 flex justify-between items-center">
+                            <span>Dispute and remove a collection account</span>
+                            <span class="bg-emerald-100 text-emerald-800 px-2 py-1 rounded text-xs">+70 pts</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col">
+                    <h3 class="font-bold text-slate-800 mb-4">Projected Score Impact</h3>
+                    <div class="flex-1 flex items-center justify-center">
+                        <div class="text-center">
+                            <div class="w-40 h-40 rounded-full border-8 border-teal-400 flex items-center justify-center mx-auto mb-4">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-slate-800">720</div>
+                                    <div class="text-sm text-teal-600 font-medium">Good</div>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm">Select an action to see how it might affect your credit score</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <!-- Footer -->
+    <footer class="bg-slate-800 text-white pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        fincorehub.info
+                    </h3>
+                    <p class="text-slate-400">Helping young adults make smart financial decisions since 2023.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-slate-400 hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition duration-300">Calculators</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition duration-300">Guides</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition duration-300">Glossary</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-slate-400 hover:text-white transition duration-300">Disclaimer</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="bg-slate-700 hover:bg-slate-600 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="bg-slate-700 hover:bg-slate-600 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </footer>
+<script>
+    // Mobile menu toggle
+    const mobileMenuButton = document.querySelector('.mobile-menu-button');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    if (mobileMenuButton && mobileMenu) {
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
+
+    // FAQ toggle functionality
+    document.querySelectorAll('.faq-toggle').forEach(button => {
+        button.addEventListener('click', () => {
+            const content = button.nextElementSibling;
+
+            // Toggle visibility
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                button.classList.add('text-teal-600'); // Optional active style
+            } else {
+                content.classList.add('hidden');
+                button.classList.remove('text-teal-600');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
